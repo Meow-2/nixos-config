@@ -180,18 +180,18 @@
     pulseaudio
     pavucontrol # gui
 
-    plank
-    listen1
-    dbeaver-bin
-    jetbrains.idea-ultimate
-    jetbrains.webstorm
-    vscode
-    qq
-    wechat-uos
-    dropbox
-    obsidian
-    wpsoffice-cn
-    vmware-workstation
+    # plank
+    # listen1
+    # dbeaver-bin
+    # jetbrains.idea-ultimate
+    # jetbrains.webstorm
+    # vscode
+    # qq
+    # wechat-uos
+    # dropbox
+    # obsidian
+    # wpsoffice-cn
+    # vmware-workstation
     # obs-studio
     # steam
   ];
