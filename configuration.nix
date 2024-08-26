@@ -122,7 +122,7 @@
     tig
 
     neovim
-    python-neovim
+    # python-neovim
     lua
     lazygit
     nodejs_18
