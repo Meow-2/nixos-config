@@ -58,7 +58,13 @@
   services.xserver.enable = true;
   services.xserver.displayManager.gdm.enable = true;
 
-  services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
+  # services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.opengl.enable = true;
+  hardware.nvidia = {
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+    modesetting.enable = true;
+  };
   # hardware.graphics.extraPackages = with pkgs; [
   #   intel-compute-runtime
   #   intel-media-driver
