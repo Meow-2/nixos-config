@@ -1,25 +1,5 @@
 {
   "nodes": {
-    "myNUR": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1724581253,
-        "narHash": "sha256-cHKZZWVbCvx5bXi2dgIan33+HKgBUFAq3DDbeTLwH+w=",
-        "owner": "Meow-2",
-        "repo": "NUR",
-        "rev": "3e71d57c58d7f18ac1f844b23cc9ea9d9020721b",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Meow-2",
-        "repo": "NUR",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1724224976,
@@ -38,7 +18,6 @@
     },
     "root": {
       "inputs": {
-        "myNUR": "myNUR",
         "nixpkgs": "nixpkgs"
       }
     }

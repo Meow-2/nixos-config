@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   src = (fetchgit {
     url = "git@github.com:Meow-2/dwm.git";
     fetchSubmodules = true;
-    sha256 = "QoC7/xdRHmsIVdm7yhwHZtwugAXCjPaSxbg4GYkSKe8=";
+    sha256 = "H5N0VErh83L1ZEhxYvg2j/xaqciUtkTGMDIp507em2E=";
   }).overrideAttrs
     {
       GIT_CONFIG_COUNT = 1;
