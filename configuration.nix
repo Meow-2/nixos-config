@@ -57,6 +57,15 @@
   };
   services.xserver.enable = true;
   services.xserver.displayManager.gdm.enable = true;
+  services.xserver.displayManager.session = [
+    {
+      manage = "window";
+      name = "dwm";
+      start = ''
+        startdwm
+      '';
+    }
+  ];
 
   # services.xserver.videoDrivers = [ "modesetting" "nvidia" ];
   services.xserver.videoDrivers = [ "nvidia" ];
