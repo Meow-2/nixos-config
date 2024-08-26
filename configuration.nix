@@ -128,6 +128,8 @@
     nodejs_18
 
     # dwm
+    (callPackage ./modules/dwm/default.nix { })
+
     top
     light
     xdg-utils

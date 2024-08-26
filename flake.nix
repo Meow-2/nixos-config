@@ -3,7 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    myNUR = {
+    nur = {
       url = "github:Meow-2/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
