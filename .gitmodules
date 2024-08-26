@@ -1,0 +1,3 @@
+[submodule "NUR"]
+	path = NUR
+	url = git@github.com:Meow-2/NUR.git

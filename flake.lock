@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "myNUR": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1724581253,
+        "narHash": "sha256-cHKZZWVbCvx5bXi2dgIan33+HKgBUFAq3DDbeTLwH+w=",
+        "owner": "Meow-2",
+        "repo": "NUR",
+        "rev": "3e71d57c58d7f18ac1f844b23cc9ea9d9020721b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Meow-2",
+        "repo": "NUR",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1724224976,
+        "narHash": "sha256-Z/ELQhrSd7bMzTO8r7NZgi9g5emh+aRKoCdaAv5fiO0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c374d94f1536013ca8e92341b540eba4c22f9c62",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "myNUR": "myNUR",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
