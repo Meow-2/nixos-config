@@ -130,7 +130,7 @@
     # dwm
     (callPackage ./modules/dwm/default.nix { })
 
-    top
+    # top
     light
     xdg-utils
     libinput-gestures
